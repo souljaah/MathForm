@@ -308,6 +308,34 @@ class _HomePageState extends State<HomePage> {
       'Integration',
       'Application of Derivatives',
       'Application of Integration',
+      'c^2 = a^2 + b^2',
+      'sin(0) = opposite/hypotenuse',
+      'cos(0) = adjacent/hypotenuse',
+      'tan(0) = opposite/adjacent',
+      'csc(0) = 1/sin(0)',
+      'sec(0) = 1/cos(0)',
+      'cot(0) = 1/tan(0)',
+      'sin^2(x)+cos^2(x)=1',
+      '1+tan^2(x) = sec^2(x)',
+      '1+cot^2(x) = csc^2(x)',
+      'csc(x) = 1/sin(x)',
+      'sec(x) = 1/cos(x)',
+      'cot(x) = 1/tan(x)',
+      'tan(x) = sin(x)/cos(x)',
+      'cot(x) = cos(x)/sin(x)',
+      'sin(π/2 -x) = cos(x)',
+      'tan(π/2 -x) = cot(x)',
+      'tan(π/2 -x) = cot(x)',
+      'cost(-x) = cos(x)',
+      'tan(-x)= -tan(x)',
+      'sin(x±y) = sin(x) cos(y) ± cos(x) sin(y)',
+      'cos(x±y) = cos(x) cos (y) ∓ sin (x) sin (y)',
+      'tan(x±y)= tan(x)±tan(y)/1∓tan(x)tan(y)',
+      'a/sin(A) = b/sin(B) =c/sin(C)',
+      'c^2 = a^2 + b^2 - 2abcos(C)',
+      'cos(C) = a^2+b^2-c^2/2ab',
+      'P(x)/Q(x)',
+      'dy/dx = f(x,y)',
     ];
 
     final filteredTopics = topics
@@ -404,6 +432,12 @@ class _HomePageState extends State<HomePage> {
           MaterialPageRoute(builder: (context) => Pythagorean(chosenColor: _chosenColor,)),
         );
         break;
+      case 'c^2 = a^2 + b^2':
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => Pythagorean(chosenColor: _chosenColor,)),
+        );
+        break;
       case 'Trigonometry':
         Navigator.push(
           context,
@@ -416,7 +450,146 @@ class _HomePageState extends State<HomePage> {
           MaterialPageRoute(builder: (context) => TrigoFunction(chosenColor: _chosenColor,)),
         );
         break;
+      case 'sin(0) = opposite/hypotenuse':
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => TrigoFunction(chosenColor: _chosenColor,)),
+        );
+        break;
+      case 'cos(0) = adjacent/hypotenuse':
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => TrigoFunction(chosenColor: _chosenColor,)),
+        );
+        break;
+      case 'tan(0) = opposite/adjacent':
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => TrigoFunction(chosenColor: _chosenColor,)),
+        );
+        break;
+      case 'csc(0) = 1/sin(0)':
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => TrigoFunction(chosenColor: _chosenColor,)),
+        );
+        break;
+      case 'sec(0) = 1/cos(0)':
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => TrigoFunction(chosenColor: _chosenColor,)),
+        );
+        break;
+      case 'cot(0) = 1/tan(0)':
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => TrigoFunction(chosenColor: _chosenColor,)),
+        );
+        break;
       case 'Trigonometric Identities':
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => TrigoIdentities(chosenColor: _chosenColor,)),
+        );
+
+        break;
+      case 'sin^2(x)+cos^2(x)=1':
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => TrigoIdentities(chosenColor: _chosenColor,)),
+        );
+        break;
+      case '1+tan^2(x) = sec^2(x)':
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => TrigoIdentities(chosenColor: _chosenColor,)),
+        );
+        break;
+      case '1+cot^2(x) = csc^2(x)':
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => TrigoIdentities(chosenColor: _chosenColor,)),
+        );
+        break;
+      case 'csc(x) = 1/sin(x)':
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => TrigoIdentities(chosenColor: _chosenColor,)),
+        );
+        break;
+      case 'sec(x) = 1/cos(x)':
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => TrigoIdentities(chosenColor: _chosenColor,)),
+        );
+        break;
+      case 'cot(x) = 1/tan(x)':
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => TrigoIdentities(chosenColor: _chosenColor,)),
+        );
+        break;
+      case 'tan(x) = sin(x)/cos(x)':
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => TrigoIdentities(chosenColor: _chosenColor,)),
+        );
+        break;
+      case 'cot(x) = cos(x)/sin(x)':
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => TrigoIdentities(chosenColor: _chosenColor,)),
+        );
+        break;
+      case 'sin(π/2 -x) = cos(x)':
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => TrigoIdentities(chosenColor: _chosenColor,)),
+        );
+        break;
+      case 'cost(-x) = cos(x)':
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => TrigoIdentities(chosenColor: _chosenColor,)),
+        );
+        break;
+      case 'tan(-x)= -tan(x)':
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => TrigoIdentities(chosenColor: _chosenColor,)),
+        );
+        break;
+      case 'sin(x±y) = sin(x) cos(y) ± cos(x) sin(y)':
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => TrigoIdentities(chosenColor: _chosenColor,)),
+        );
+        break;
+      case 'cos(x±y) = cos(x) cos (y) ∓ sin (x) sin (y)':
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => TrigoIdentities(chosenColor: _chosenColor,)),
+        );
+        break;
+      case 'tan(x±y)= tan(x)±tan(y)/1∓tan(x)tan(y)':
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => TrigoIdentities(chosenColor: _chosenColor,)),
+        );
+        break;
+      case 'tan(π/2 -x) = cot(x)':
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => TrigoIdentities(chosenColor: _chosenColor,)),
+        );
+        break;
+      case 'tan(π/2 -x) = cot(x)':
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => TrigoIdentities(chosenColor: _chosenColor,)),
+        );
+        break;
+      case 'tan(π/2 -x) = cot(x)':
         Navigator.push(
           context,
           MaterialPageRoute(builder: (context) => TrigoIdentities(chosenColor: _chosenColor,)),
@@ -433,8 +606,25 @@ class _HomePageState extends State<HomePage> {
           context,
           MaterialPageRoute(builder: (context) => LawofSines(chosenColor: _chosenColor,)),
         );
+      case 'a/sin(A) = b/sin(B) =c/sin(C)':
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => LawofSines(chosenColor: _chosenColor,)),
+        );
         break;
       case 'Law of Cosines':
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => LawofCosines(chosenColor: _chosenColor,)),
+        );
+        break;
+      case 'c^2 = a^2 + b^2 - 2abcos(C)':
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => LawofCosines(chosenColor: _chosenColor,)),
+        );
+        break;
+      case 'cos(C) = a^2+b^2-c^2/2ab':
         Navigator.push(
           context,
           MaterialPageRoute(builder: (context) => LawofCosines(chosenColor: _chosenColor,)),
@@ -483,6 +673,11 @@ class _HomePageState extends State<HomePage> {
         );
         break;
       case 'Rational Expressions':
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => RationalPage(chosenColor: _chosenColor,)),
+        );
+      case 'P(x)/Q(x)':
         Navigator.push(
           context,
           MaterialPageRoute(builder: (context) => RationalPage(chosenColor: _chosenColor,)),
@@ -579,6 +774,11 @@ class _HomePageState extends State<HomePage> {
         );
         break;
       case 'Initial Value Problems':
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => InitialValue(chosenColor: _chosenColor,)),
+        );
+      case 'dy/dx = f(x,y)':
         Navigator.push(
           context,
           MaterialPageRoute(builder: (context) => InitialValue(chosenColor: _chosenColor,)),
