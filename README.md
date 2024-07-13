@@ -23,14 +23,14 @@ Exit Button: Easily close the app.
 Please note that while the app aims to be a useful resource, some formulas and answers may contain inaccuracies. I continually working to improve the content and appreciate your understanding.
 
 
-#Nooobieee
+# Nooobieee
 
-# I'm not really good at coding, but I do understand how variables, syntax, and basic programming concepts work. I'm still learning, though. I took two weeks to study Flutter and create this simple app. If you're new to coding, like me, here are some resources that might help you understand coding better:
+I'm not really good at coding, but I do understand how variables, syntax, and basic programming concepts work. I'm still learning, though. I took two weeks to study Flutter and create this simple app. If you're new to coding, like me, here are some resources that might help you understand coding better:
 
-#Codecademy: Offers interactive coding lessons for beginners.
+Codecademy: Offers interactive coding lessons for beginners.
 
-#FreeCodeCamp: Provides free coding courses and projects.
+FreeCodeCamp: Provides free coding courses and projects.
 
-#Coursera: Offers courses from universities on various programming topics.
+Coursera: Offers courses from universities on various programming topics.
 
-#Flutter Documentation: The official documentation is a great place to start learning about Flutter
+Flutter Documentation: The official documentation is a great place to start learning about Flutter
