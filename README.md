@@ -4,7 +4,7 @@ Collection of mathematics formulas from basic to advanced levels. Each topic in 
 
 # Key features:
 
-Topic Introductions: Get familiar with each topic through clear, concise introductions.
+# Topic Introductions: Get familiar with each topic through clear, concise introductions.
 
 Problem Solving: Practice problems with hidden answers to test your knowledge. Tap to reveal the answer and compare it with yours.
 
