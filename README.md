@@ -1,4 +1,4 @@
-# MathForm
+# MathFormApk 📱
 
 Collection of mathematics formulas from basic to advanced levels. Each topic in the app includes an introduction, detailed instructions on how to use the formulas, and a variety of problems to solve.
 
