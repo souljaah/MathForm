@@ -1,16 +1,23 @@
 # MathForm
 
-A new Flutter project.
+Collection of mathematics formulas from basic to advanced levels. Each topic in the app includes an introduction, detailed instructions on how to use the formulas, and a variety of problems to solve.
 
-## Getting Started
+Key features:
 
-This project is a starting point for a Flutter application.
+Topic Introductions: Get familiar with each topic through clear, concise introductions.
 
-A few resources to get you started if this is your first Flutter project:
+Problem Solving: Practice problems with hidden answers to test your knowledge. Tap to reveal the answer and compare it with yours.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Navigation Drawer: Access additional features such as:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+History: Review your past activity.
+
+Favorites: Bookmark topics for quick access.
+
+Change Background Color: Customize the app's appearance to your liking.
+
+App Details: Learn more about the app.
+
+Exit Button: Easily close the app.
+
+Please note that while the app aims to be a useful resource, some formulas and answers may contain inaccuracies. I continually working to improve the content and appreciate your understanding.
