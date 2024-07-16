@@ -24,13 +24,3 @@ Please note that while the app aims to be a useful resource, some formulas and a
 
 
 # Nooobieee
-
-I'm noobiee at coding, but I do understand how variables, syntax, and basic programming concepts work. I'm still learning, though. I took two weeks to study Flutter and create this simple app. If you're new to coding, like me, here are some resources that might help you understand coding better:
-
-Codecademy: Offers interactive coding lessons for beginners.
-
-FreeCodeCamp: Provides free coding courses and projects.
-
-Coursera: Offers courses from universities on various programming topics.
-
-Flutter Documentation: The official documentation is a great place to start learning about Flutter
