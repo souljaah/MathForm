@@ -23,4 +23,3 @@ Exit Button: Easily close the app.
 Please note that while the app aims to be a useful resource, some formulas and answers may contain inaccuracies. I continually working to improve the content and appreciate your understanding.
 
 
-# Nooobieee
